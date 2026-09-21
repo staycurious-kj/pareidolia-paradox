@@ -21,6 +21,20 @@ The Pareidolia Paradox image-classification challenge.
 - Inference augmentation: horizontal-flip TTA
 - Final decision threshold: 0.555
 
+## Model weights
+
+The trained v3.3 model checkpoints are available here:
+
+[Download model weights from Google Drive](https://drive.google.com/drive/folders/1xRGTXIB_tavayeql_3jPIih3ZzAAsqiR?usp=sharing)
+
+The folder contains the five seed-42 fold checkpoints:
+
+- `seed_42_fold_1.pt`
+- `seed_42_fold_2.pt`
+- `seed_42_fold_3.pt`
+- `seed_42_fold_4.pt`
+- `seed_42_fold_5.pt`
+
 ## Azimuth normalization
 
 The dataset provides `sun_azimuth_angle`, which describes the sun position
